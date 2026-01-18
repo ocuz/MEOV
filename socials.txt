@@ -1,0 +1,7 @@
+# Social Media Username Checker - Database
+# Format: social_name:url_prefix<user>url_suffix
+# Only Instagram, TikTok, and Twitter
+
+Instagram:https://instagram.com/<user>
+TikTok:https://www.tiktok.com/@<user>
+Twitter:https://twitter.com/<user>
