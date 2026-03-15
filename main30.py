@@ -118,7 +118,7 @@ def save_and_print(name, code):
 
 def clear_output_files():
     for name in ("valid.txt", "taken.txt", "censored.txt"):
-        open(name, "w").close()
+        open(name, "a").close()
 
 def check_username(username):
     url = f"https://auth.roblox.com/v1/usernames/validate?username={username}&birthday=2001-09-11"
